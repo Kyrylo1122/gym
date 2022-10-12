@@ -1,0 +1,8 @@
+.programs {
+  padding: 120px 0 60px;
+}
+.programs__title {
+  display: flex;
+
+  justify-content: center;
+}

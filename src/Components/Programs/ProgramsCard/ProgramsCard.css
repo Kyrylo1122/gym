@@ -1,0 +1,47 @@
+.programs-card__list {
+  display: flex;
+  margin: -16px;
+}
+.programs-card__item {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--grey);
+  color: white;
+
+  padding: 32px;
+  border: 1px solid black;
+  width: calc((100% - 48px) / 4);
+  margin: 16px;
+  border: none;
+  outline: none;
+
+  border-radius: 5px;
+}
+.programs-card__item:hover {
+  background: var(--planCard);
+  cursor: pointer;
+}
+.programs-card__meta {
+  display: flex;
+  flex-direction: column;
+}
+.programs-card__icon {
+  fill: white;
+}
+.programs-card__title {
+  margin-top: 16px;
+}
+.programs-card__text {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+.programs-card__btn {
+  margin-top: auto;
+}
+.programs-card__join {
+  display: flex;
+  align-items: center;
+}
+.programs-card__join > span {
+  margin-right: 25px;
+}

@@ -1,0 +1,31 @@
+.plans-card__icon {
+  fill: white;
+  margin-bottom: 32px;
+}
+.plans-card__title {
+  margin-bottom: 32px;
+}
+.plans-card__price {
+  margin-bottom: 32px;
+  font-size: 48px;
+  font-weight: bold;
+}
+.plans-card__list {
+  margin-bottom: 32px;
+}
+.plans-card__item {
+  display: flex;
+  align-items: center;
+}
+.plans-card__item:not(:last-child) {
+  margin-bottom: 16px;
+}
+
+.plans-card__item > span {
+  margin-left: 15px;
+}
+.plans-card__btn {
+  margin-top: auto;
+  padding: 8px 0;
+  border: 4px solid transparent;
+}

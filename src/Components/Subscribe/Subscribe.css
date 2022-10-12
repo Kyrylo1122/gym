@@ -1,0 +1,31 @@
+.subscribe__container {
+  display: flex;
+  align-items: flex-end;
+}
+
+.subscribe__title {
+  width: 540px;
+  font-size: 48px;
+}
+
+.subscribe__title--sec {
+  margin-top: 15px;
+}
+.subscribe__title > span {
+  color: white;
+}
+
+.subscribe__leftSide {
+  flex: 1;
+  position: relative;
+}
+.subscribe__rightSide {
+  flex: 1;
+}
+.subscribe__leftSide > hr {
+  position: absolute;
+  top: -25%;
+  width: 180px;
+  height: 3px;
+  border: 2px solid var(--orange);
+}

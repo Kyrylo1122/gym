@@ -1,0 +1,14 @@
+.hero__list {
+  display: flex;
+}
+.hero__item > span {
+  font-size: 32px;
+  color: white;
+}
+.hero__item > p {
+  color: var(--lightgray);
+}
+
+.hero__item:not(:last-child) {
+  margin-right: 32px;
+}

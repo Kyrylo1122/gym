@@ -1,0 +1,48 @@
+/* .heroText--container {
+  /* width: 465px; */
+/* display: block; */
+/* } */
+
+.hero__pre-text--container {
+  position: relative;
+  margin-top: 64px;
+  display: inline-flex;
+
+  background-color: var(--darkGrey);
+  border-radius: 50px;
+}
+.hero__pre-text {
+  z-index: 2;
+  text-align: left;
+  padding: 20px 13px;
+  color: white;
+  font-size: large;
+}
+.hero__pre-text--orange-container {
+  z-index: 1;
+
+  top: 6px;
+  left: 8px;
+  border-radius: 50px;
+
+  position: absolute;
+
+  background-color: var(--orange);
+  display: block;
+  width: 5.4rem;
+  height: 80%;
+}
+.hero__title {
+  font-size: 72px;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+}
+.hero__after-title {
+  margin-top: 32px;
+  margin-bottom: 32px;
+
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+  letter-spacing: 1px;
+}

@@ -1,0 +1,36 @@
+.reasons-container {
+  display: flex;
+}
+
+.ReasonsLeftSide {
+  flex: 1;
+  padding: 32px;
+}
+.ReasonsRightSide {
+  padding: 32px;
+  flex: 1;
+}
+
+.reasons__pre-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--orange);
+}
+.reasons__title {
+  font-size: 48px;
+  color: white;
+  margin: 20px 0;
+}
+.reasons__item {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-weight: 500;
+}
+
+.reasons__item:not(:last-child) {
+  margin-bottom: 10px;
+}
+.reasons__item > span {
+  margin-left: 15px;
+}

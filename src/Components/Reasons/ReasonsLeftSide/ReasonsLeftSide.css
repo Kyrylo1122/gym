@@ -1,0 +1,13 @@
+.first-container {
+  display: flex;
+}
+.second-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin-left: 30px;
+}
+.third-container {
+  display: flex;
+  justify-content: space-between;
+}

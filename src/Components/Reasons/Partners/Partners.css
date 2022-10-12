@@ -1,0 +1,15 @@
+.partners {
+  margin-top: 15px;
+}
+.partners__title {
+  font-weight: 400;
+  margin-top: 15px;
+  color: var(--grey);
+}
+.partners__list {
+  display: flex;
+  margin-top: 15px;
+}
+.partners__item:not(:last-child) {
+  margin-right: 15px;
+}

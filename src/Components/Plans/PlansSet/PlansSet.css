@@ -1,0 +1,22 @@
+.plans-set {
+  display: flex;
+  margin: -24px;
+}
+.plans-set__item {
+  display: flex;
+  flex-direction: column;
+
+  margin: 24px;
+  padding: 24px;
+  background-color: var(--caloryCard);
+  color: white;
+  cursor: pointer;
+  transform: scale(1);
+
+  transition: transform 300ms ease-in-out;
+}
+
+.active {
+  background: var(--planCard);
+  transform: scale(1.2);
+}

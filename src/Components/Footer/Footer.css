@@ -1,0 +1,48 @@
+.footer {
+  position: relative;
+}
+.footer__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer__list {
+  position: relative;
+  z-index: 8;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+.footer__item:not(:last-child) {
+  margin-right: 64px;
+}
+
+.footer__link {
+  color: white;
+}
+.footer__link:hover {
+  color: var(--orange);
+}
+
+.footer__logo {
+  position: relative;
+  z-index: 8;
+  margin-top: 64px;
+}
+
+.blur__footer {
+  width: 412px;
+  height: 280px;
+  left: 15%;
+  bottom: 0%;
+  filter: blur(250px);
+}
+
+.blur__footer--sec {
+  width: 412px;
+  height: 280px;
+  right: 15%;
+  bottom: 0%;
+  background: red;
+  filter: blur(250px);
+}

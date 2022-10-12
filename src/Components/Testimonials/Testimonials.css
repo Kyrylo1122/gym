@@ -1,0 +1,9 @@
+.testimonials {
+  padding: 60px 0;
+  background-color: var(--darkGrey);
+}
+.testimonials-container {
+  display: flex;
+  min-height: 408px;
+  align-items: flex-end;
+}

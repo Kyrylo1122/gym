@@ -1,0 +1,24 @@
+.plans {
+  position: relative;
+}
+.plans-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.plans__title {
+  margin-bottom: 80px;
+}
+
+.blur__plans {
+  width: 512px;
+  height: 430px;
+  left: 20%;
+  top: 40%;
+}
+.blur__plans--sec {
+  width: 512px;
+  height: 430px;
+  right: 20%;
+  top: 40%;
+}

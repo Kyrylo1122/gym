@@ -1,0 +1,33 @@
+.testimonials-left-side {
+  flex: 1;
+  color: white;
+}
+.testimonials-left-side__title {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--orange);
+}
+.testimonials-left-side__after-title {
+  margin-top: 32px;
+  font-weight: 700;
+  font-size: 48px;
+  text-transform: uppercase;
+}
+
+.testimonials-left-side__after-review {
+  margin-top: 32px;
+  min-height: 120px;
+
+  letter-spacing: 2px;
+  line-height: 40px;
+  text-align: justify;
+  text-transform: none;
+}
+
+.testimonials-left-side__subtitle {
+  margin-top: 32px;
+}
+
+.testimonials-left-side__subtitle > span {
+  color: var(--orange);
+}
