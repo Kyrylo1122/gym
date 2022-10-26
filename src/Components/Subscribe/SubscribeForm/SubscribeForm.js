@@ -1,8 +1,11 @@
 import "./SubscribeForm.css";
+import { toast } from "react-toastify";
+
 export default function SubscribeForm() {
   const onSubmit = (e) => {
     e.preventDefault();
-    console.log(e.target.elements.email.value);
+    toast(`We send message to ${e.target.elements.email.value}`);
+
     e.target.reset();
   };
   return (
@@ -12,6 +15,7 @@ export default function SubscribeForm() {
         type="mail"
         name="email"
         placeholder="Enter your email here"
+        required
       />
       <button type="submit" className="btn-first form__btn btn">
         Join now

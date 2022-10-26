@@ -1,8 +1,8 @@
 import Header from "../Header/Header";
 import "./Hero.css";
-import HeroBenefitsList from "./HeroLeftSideBar/HeroBenefitsList";
-import HeroBtn from "./HeroLeftSideBar/HeroBtn";
-import HeroText from "./HeroLeftSideBar/HeroText";
+import HeroBenefitsList from "./HeroLeftSideBar/HeroBenefitsList/HeroBenefitsList";
+import HeroBtn from "./HeroLeftSideBar/HeroBtn/HeroBtn";
+import HeroText from "./HeroLeftSideBar/HeroText/HeroText";
 import HeroRightSideBar from "./HeroRightSideBar/HeroRightSideBar";
 export default function Hero() {
   return (

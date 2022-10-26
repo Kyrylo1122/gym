@@ -1,6 +1,6 @@
 import "./HeroText.css";
 import { motion } from "framer-motion";
-import { transition } from "../../Transition/Transition";
+import { transition } from "../../../Transition/Transition";
 export default function HeroText() {
   return (
     <div className="heroText--container">
