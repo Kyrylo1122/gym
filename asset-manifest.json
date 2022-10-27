@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/gym/static/css/main.2250c028.css",
-    "main.js": "/gym/static/js/main.f7c505fa.js",
+    "main.css": "/gym/static/css/main.91d72f59.css",
+    "main.js": "/gym/static/js/main.c02d82df.js",
     "static/media/image1.png": "/gym/static/media/image1.1091417d32e491f0bbb6.png",
     "static/media/image2.png": "/gym/static/media/image2.82da8b2725df896d8a8e.png",
     "static/media/logan-weaver-lgnwvr-9D_rUDe7xvA-unsplash-min.jpg": "/gym/static/media/logan-weaver-lgnwvr-9D_rUDe7xvA-unsplash-min.9016100951c56f3b8f6e.jpg",
@@ -12,11 +12,11 @@
     "static/media/pngegg.png": "/gym/static/media/pngegg.760c24f3e26277d2158e.png",
     "static/media/hero_image_back.png": "/gym/static/media/hero_image_back.9f54bfba33048f4ca688.png",
     "index.html": "/gym/index.html",
-    "main.2250c028.css.map": "/gym/static/css/main.2250c028.css.map",
-    "main.f7c505fa.js.map": "/gym/static/js/main.f7c505fa.js.map"
+    "main.91d72f59.css.map": "/gym/static/css/main.91d72f59.css.map",
+    "main.c02d82df.js.map": "/gym/static/js/main.c02d82df.js.map"
   },
   "entrypoints": [
-    "static/css/main.2250c028.css",
-    "static/js/main.f7c505fa.js"
+    "static/css/main.91d72f59.css",
+    "static/js/main.c02d82df.js"
   ]
 }
